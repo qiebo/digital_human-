@@ -1,0 +1,8 @@
+opencv-python
+pillow
+pygame
+pyaudio
+numpy
+requests
+dashscope
+baidu-aip

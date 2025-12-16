@@ -1,0 +1,1 @@
+ffmpeg -i original.mp4 -c:v h264_v4l2m2m -vf "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2" -b:v 2M -an -y emoji.mp4
